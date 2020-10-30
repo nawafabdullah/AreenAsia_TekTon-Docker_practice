@@ -1,0 +1,186 @@
+.main-container {
+  /* height: 100%; */
+  width: 100%;
+  border: 1px solid;
+}
+
+.header {
+  
+  width: 100%;
+  border: 1px solid;
+  background-color: beige;
+  resize: inherit;
+  text-align: center;
+  
+  
+  position: relative;
+}
+
+#logo-pic {
+  height: 150px;
+  width: auto;
+  resize: inherit;
+}
+
+/*
+.main-backgound {
+  height: 60%;
+  width: 100%;
+  /*  background-image: url("./images/BackGroundMap.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5; 
+}
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;
+}
+h1 {
+  margin: 150px auto 30px auto;
+  text-align: center;
+  color: #fff;
+}
+
+.hi-slide {
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 115px auto 0;
+}
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border-radius: 50px;
+
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  transition: all 0.6s;
+  font-size: 20px;
+  font-weight: bold;
+}
+.hi-slide .hi-next:hover,
+.hi-slide .hi-prev:hover {
+  opacity: 1;
+  background-color: #fff;
+}
+
+.hi-slide .hi-prev {
+  left: -60px;
+}
+
+.hi-slide .hi-prev::before {
+  content: "<";
+}
+.hi-slide .hi-next {
+  right: -60px;
+}
+.hi-slide .hi-next::before {
+  content: ">";
+}
+
+.hi-slide > ul {
+  list-style: none;
+  position: relative;
+  width: 754px;
+  height: 292px;
+  margin: 0;
+  padding: 0;
+}
+
+.hi-slide > ul > li {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  left: 377px;
+  top: 146px;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.hi-slide > ul > li > img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.contact-us {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.contact-info {
+  font-family: fantasy;
+  font-style: italic;
+  font-size-adjust: inherit;
+}
+
+#sc-logo {
+  height: 120px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+#service-type {
+  width: 50%;
+}
+
+#subject {
+  width: 50%;
+}
